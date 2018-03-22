@@ -29,7 +29,7 @@ body {
     color: #fff;
 }
 
-.logo {
+.header__logo {
     position: absolute;
     top: 2rem;
     left: 2rem;
@@ -37,7 +37,7 @@ body {
     font-size: 1.6rem;
 }
 
-.text-box {
+.header__text-box {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -51,9 +51,9 @@ body {
     margin-bottom: 2rem;
 }
 
-.heading-primary-main {
+.heading-primary--main {
     display: block;
-    animation: moveInLeft 1s ease-out .5s;
+    animation: moveInLeft 1s ease-out;
 }
 
 @keyframes moveInLeft {
@@ -92,19 +92,19 @@ body {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
 }
 
-.btn-white {
+.btn--white {
     background-color: #fff;
     color: #777;
 }
 
-.btn-animated {
-    animation: moveFromBottom .5s ease-out .5s;
+.btn--animated {
+    animation: moveFromBottom 1s ease-out;
 }
 
 @keyframes moveFromBottom {
     0% {
         opacity: 0;
-        transform: translateY(5rem)
+        transform: translateY(5rem);
     }
 
     100% {
